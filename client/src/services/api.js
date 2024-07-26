@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://job-portal-backend-hama.onrender.com";
 
 export const saveData = async (data) => {
     try {
