@@ -44,6 +44,7 @@ function App() {
         {selectedJob && (
           <div className="col-md-8">
             <JobDetail job={selectedJob} />
+            hello
           </div>
         )}
       </div>
