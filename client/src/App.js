@@ -8,6 +8,7 @@ import React from 'react';
 // import { getData } from './services/api';
 import Home from './components/Home/home'
 import Login from './components/accounts/login'
+import Loading from './components/Loading/loading'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div className="container mt-5">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<Loading />}></Route>
         <Route path='/login' element={<Login/>}></Route>
       </Routes>
       </BrowserRouter>
